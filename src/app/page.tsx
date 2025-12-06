@@ -277,10 +277,10 @@ export default function Home() {
                   </p>
                   <div className="flex items-center justify-center gap-1 mt-4">
                     <div className="w-1 h-8 bg-green-400 rounded animate-pulse"></div>
-                    <div className="w-1 h-12 bg-green-400 rounded animate-pulse delay-75"></div>
-                    <div className="w-1 h-6 bg-green-400 rounded animate-pulse delay-150"></div>
+                    <div className="w-1 h-12 bg-green-400 rounded animate-pulse" style={{ animationDelay: "75ms" }}></div>
+                    <div className="w-1 h-6 bg-green-400 rounded animate-pulse" style={{ animationDelay: "150ms" }}></div>
                     <div className="w-1 h-10 bg-green-400 rounded animate-pulse"></div>
-                    <div className="w-1 h-8 bg-green-400 rounded animate-pulse delay-75"></div>
+                    <div className="w-1 h-8 bg-green-400 rounded animate-pulse" style={{ animationDelay: "75ms" }}></div>
                   </div>
                 </div>
               </div>
